@@ -1,0 +1,54 @@
+body{
+background-color: gainsboro;
+}
+header > img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: grey;
+    border-radius: 20px;
+    height: 30px;
+    margin: 20px;
+    padding-top: 10px;
+   
+    
+
+}
+.banner{
+    display: block;
+
+}
+.banner-image > {
+    background-image: url("th.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 10px;
+
+    
+
+}
+
+section{
+    display: flex;
+    margin: 0px;
+    width: 300px;
+    
+    
+}
+
+
