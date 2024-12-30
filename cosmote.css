@@ -1,0 +1,53 @@
+.wcs-bab-menu {
+    font-size: 0;
+    padding: 0 0 -8px 0;
+    max-width:1200px;
+    justify-content:center;
+}
+
+.wcs-bab-menu a {
+    display:inline-block;
+    vertical-align: middle;
+    background: #FFFFFF;
+    border: 1px solid #808080;
+    border-radius: 45px;
+    color: #000;
+    font-size: 19px;
+    font-family: 'BTCosmo-Bold';
+    padding: 18px 30px;
+    margin: 0 8px 16px;
+    transition: 200ms all;
+    
+    
+}
+
+.wcs-bab-menu a.wcs-active,
+.wcs-bab-menu a:hover {
+    background: #0EA600;
+    border-color: #0EA600;
+    color: #fff;
+}
+
+.wcs-bab-menu .wcs-tab {
+    display: none;
+}
+
+ .wcs-bab.wcs-active {
+    display: block;
+}
+@media screen and (max-width: 1280px) {
+.wcs-bab-copy{
+        padding-top: 0px;
+    }
+@media screen and (max-width: 767px) {
+    .wcs-bab-menu {
+        margin: 0 -16px 0 0;
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        white-space: nowrap;
+        padding: 0 20px 0px 0;
+    }
+
+   
+}
