@@ -1,24 +1,30 @@
 .wcs-bab-menu {
     font-size: 0;
-    padding: 0 0 -8px 0;
-    max-width:1200px;
-    justify-content:center;
+    padding: 0 0 10px 0;
+    max-width: 100%; /* Adjust to fit mobile screens */
+    justify-content: center;
+    overflow-x: auto; /* Add horizontal scrolling for small screens */
+    -ms-overflow-style: none; /* Hides scrollbar for IE/Edge */
+    scrollbar-width: none; /* Hides scrollbar for Firefox */
+    white-space: nowrap; /* Prevent items from wrapping */
+}
+
+.wcs-bab-menu::-webkit-scrollbar {
+    display: none; /* Hides scrollbar for Chrome, Safari, and Edge */
 }
 
 .wcs-bab-menu a {
-    display:inline-block;
+    display: inline-block;
     vertical-align: middle;
     background: #FFFFFF;
     border: 1px solid #808080;
     border-radius: 45px;
     color: #000;
-    font-size: 19px;
+    font-size: 19px; /* Slightly reduce font size for mobile */
     font-family: 'BTCosmo-Bold';
-    padding: 18px 30px;
-    margin: 0 8px 16px;
+    padding: 14px 20px; /* Adjust padding for smaller buttons */
+    margin: 0 8px 12px; /* Reduce margins for a tighter layout */
     transition: 200ms all;
-    
-    
 }
 
 .wcs-bab-menu a.wcs-active,
@@ -32,22 +38,25 @@
     display: none;
 }
 
- .wcs-bab.wcs-active {
+.wcs-bab.wcs-active {
     display: block;
 }
+
 @media screen and (max-width: 1280px) {
-.wcs-bab-copy{
+    .wcs-bab-copy {
         padding-top: 0px;
     }
+}
+
 @media screen and (max-width: 767px) {
     .wcs-bab-menu {
         margin: 0 -16px 0 0;
         overflow: auto;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-        white-space: nowrap;
-        padding: 0 20px 0px 0;
+        padding: 0 16px 8px 16px; /* Adjusted for consistent padding */
     }
 
-   
+    .wcs-bab-menu a {
+        font-size: 20px; /* Further reduce font size for very small screens */
+        padding: 12px 16px; /* Reduce padding to fit small buttons */
+    }
 }
