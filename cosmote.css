@@ -1,4 +1,4 @@
-.wcs-bab-menu {
+.wcs-newtab-menu {
     padding: 0;
     max-width: 100%;
     justify-content: center;
@@ -8,41 +8,41 @@
     -ms-overflow-style: none; 
 }
 
-.wcs-bab-menu::-webkit-scrollbar {
+.wcs-newtab-menu::-webkit-scrollbar {
     display: none; 
 }
 
-.wcs-bab-menu a {
+.wcs-newtab-menu a {
     display: inline-block;
     vertical-align: middle;
     background: #FFFFFF;
     border: 1px solid #808080;
     border-radius: 45px;
     color: #000;
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'BTCosmo-Bold';
-    padding: 14px 20px; 
+    padding: 18px 30px; 
     margin: 5px; 
     transition: 200ms all;
 }
 
-.wcs-bab-menu a.wcs-active,
-.wcs-bab-menu a:hover {
+.wcs-newtab-menu a.wcs-active,
+.wcs-newtab-menu a:hover {
     background: #0EA600;
     border-color: #0EA600;
     color: #fff;
 }
 
-.wcs-bab-menu .wcs-tab {
+.wcs-newtab-menu .wcs-tab {
     display: none;
 }
 
-.wcs-bab.wcs-active {
+.wcs-newtab.wcs-active {
     display: block;
 }
 
 @media screen and (max-width: 767px) {
-    .wcs-bab-menu {
+    .wcs-newtab-menu {
         display: flex;
         flex-wrap: nowrap;
         justify-content: flex-start; 
@@ -53,13 +53,13 @@
         margin: 0; 
     }
 
-    .wcs-bab-menu::-webkit-scrollbar {
+    .wcs-newtab-menu::-webkit-scrollbar {
         display: none; 
     }
 
-    .wcs-bab-menu a {
+    .wcs-newtab-menu a {
         font-size: 19px; 
-        padding: 12px 16px;
+        padding: 12px 23px;
         margin: 0 6px; 
     }
 }
