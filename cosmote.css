@@ -74,9 +74,9 @@
     background: url("../images/wcs-hub-mobile/icon-services-more.svg") no-repeat center center;
     background-size: contain;
     display: block;
-    margin: 20px auto 0; /* Κεντραρισμένο */
+    margin: 20px auto 0; 
     position: relative;
-    margin-left: 20px; /* Μετακίνηση αριστερά */
+    margin-left: 20px; 
 }
 
 
